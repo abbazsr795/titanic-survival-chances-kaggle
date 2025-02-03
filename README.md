@@ -2,7 +2,13 @@ Built a few models that were trained using the data set from https://www.kaggle.
 
 All models that were used were from ScikitLearn and were tried out with different parameters in hopes of improvising accuracy. 
 
+Models used:
+- KNeighborsClassifier
+- LinearSVC
+- HistGradientBoostingClassifier (Ensemble using boosting)
+- RandomForestClassifier (Ensemble using bagging)
+
 Data was also cleaned and reorganised by:
-Filling missing values with mean/median/mode
-Converting text data to numbers 
-Scaling data so features are equality treated and model isn’t affected by large and extreme values
+- Filling missing values with mean/median/mode
+- Converting text data to numbers 
+- Scaling data so features are equality treated and model isn’t affected by large and extreme values
