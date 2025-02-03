@@ -12,3 +12,5 @@ Data was also cleaned and reorganised by:
 - Filling missing values with mean/median/mode
 - Converting text data to numbers 
 - Scaling data so features are equality treated and model isn’t affected by large and extreme values
+
+A data pipeline was also constructed using simple python functions that cleaned the data, filled missing values, and produced output results for the testing dataset
